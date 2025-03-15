@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">AR Capellan Services</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="#info">Contactos</a></li>
+                </ul>
+
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1>Venta, Reparacion y Renta</h1>
+                <p>
+                    En AR Capellan Services, nos dedicamos a la venta, reparación y renta de equipos de oficina, 
+                    así como a la distribución de materiales gastables para empresas y particulares. Con 
+                    más de 10 años de experiencia en el sector, nos hemos consolidado como un referente en 
+                    el mercado gracias a nuestro compromiso con la calidad y el servicio al cliente.
+                </p>
+                <a href="#info" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="images/9c46553f-4c68-44c7-bbeb-19b56afff78b.png" alt="">
+
+            </div>
+
+        </div>
+    </header>
+
+    <section class="information container">
+
+        <div class="information-content">
+
+            <div class="information-1">
+                <img src="images/i1.svg" alt="">
+                <h3>Somos Tienda Fisica</h3>
+                <p>Visita nuestra Tienda</p>
+
+            </div>
+
+            <div class="information-1">
+                <img src="images/i2.svg" alt="">
+                <h3>Formas de pago</h3>
+                <p>todas las formas de pago</p>
+
+            </div>
+
+            <div class="information-1">
+                <img src="images/i3.svg" alt="">
+                <h3>Envios</h3>
+                <p>Envios a todo el Pais</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="oferts-container">
+        <div class="ofert-1">
+            <img src="images/tinta.jfif" alt="">
+            <h3>Oferta</h3>
+            <p>tinta epson</p>
+        </div>
+        <div class="ofert-1">
+            <img src="images/455-2.jfif" alt="">
+            <h3>Oferta</h3>
+            <p>Renta de Impresoras</p>
+        </div>
+        <div class="ofert-1">
+            <img src="images/laptop.jpg" alt="">
+            <h3>Oferta</h3>
+            <p>Laptop</p>
+        </div>
+        <div class="ofert-1">
+            <img src="images/hp p1102w.jfif" alt="">
+            <h3>Oferta</h3>
+            <p>Equipos Usados</p>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>Productos destacados</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="images/calculadora.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Calculadoras</h3>
+                    <p class="precio">7,995.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/L3250.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Epson L3250</h3>
+                    <p class="precio">16,500.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/blutu print.jpg" alt="">
+                <div class="product-txt">
+                    <h3>IMPRESORA BLUETOOTH</h3>
+                    <p class="precio">2,500.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/ups.png" alt="">
+                <div class="product-txt">
+                    <h3>Ups</h3>
+                    <p class="precio">2,800.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/2connet et.png" alt="">
+                <div class="product-txt">
+                    <h3>Impresora de etiquetas</h3>
+                    <p class="precio">8,500.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/Dell-Optiplex-3050-Micro.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Cpu Micro</h3>
+                    <p class="precio">9,995.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/monitores.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Monitores</h3>
+                    <p class="precio">2.800.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/lx-350.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Matricial</h3>
+                    <p class="precio">5,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">agregar</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="service">
+
+        <div class="service-1">
+            <img class="store" src="images/black y blu.png" alt="">
+        </div>
+        <div class="service-2">
+            <img class="store" src="images/gplus.png" alt="">
+        </div>
+        <div class="service-3">
+            <img class="store" src="images/Black and Yellow Modern Machinery and Equipment Rental Flyer (2).png" alt="">
+        </div>
+    </section>
+
+    <section class="contact container">
+        <form>
+            <input type="email" placeholder="correo">
+            <input type="submit" class="btn-3">
+        </form>
+
+    </section>
+
+    <footer class="footer" id="info">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>EMPRESA</h3>
+                <ul>
+                    <li><a href="#">AR CAPELLAN SERVICES</a></li>
+                    <li><a href="#">RNC.133-34440-8</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#">INSTAGRAM</a></li>
+                    <li><a href="#">FACEBOOK</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Contactos</h3>
+                <ul>
+                    <li><a href="#">Tel:829-442-5835</a></li>
+                    <li><a href="#">WhatsApp</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Direccion</h3>
+                <ul>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScS4ms8FTsH62afDTFdSHdlRPgSQVAAd4B9o5_jWUWKM56L8A/viewform?usp=header">formulario</a></li>
+                    <li><a href="#">calle juan alejandro ibarra#20 </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <p>derechos reservados por AYR tech solutions</p>
+
+    <script src="script.js"></script>  
+</body>
+</html>
